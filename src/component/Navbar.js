@@ -46,7 +46,10 @@ function Navbar() {
       
        {
         user == null ?
-        <h1>{user.first_name}</h1>
+        <li className='nav-item'>
+          <Link className='nav-link' to='login'>login</Link> 
+
+        </li>
         :
         user?.image == null ?
         <h2>{user?.first_name}</h2>
@@ -68,6 +71,7 @@ function Navbar() {
         </button>
         
         </Link>
+        <a href="https://legacy-wogu.onrender.com/admin/">Admin</a>
       </ul>
       
     </div>

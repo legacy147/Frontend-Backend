@@ -43,18 +43,16 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="collapsibleNavId">
       <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
         
-      <li className="nav-item">
-        <Link className="nav-link" to="/login">Login</Link>
-        </li>
-       {/* {
+      
+       {
         user == null ?
-        
+        <h1>{user.first_name}</h1>
         :
         user?.image == null ?
         <h2>{user?.first_name}</h2>
         :
-        <img className='w-50 h-15' src={"http://localhost:8000/"+user?.image} alt="" />
-       } */}
+        <img className='w-50 h-15' src={"https://legacy-wogu.onrender.com/"+user?.image} alt="" />
+       } 
        
         <Link to="/cart" className="nav-item">
         <button

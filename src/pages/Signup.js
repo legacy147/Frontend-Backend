@@ -9,7 +9,7 @@ function Signup() {
 
     let data = new FormData(e.currentTarget)
 
-    axios.post("http://localhost:8000/signup/", data)
+    axios.post("https://legacy-wogu.onrender.com/signup/", data)
     .then((res) => {
       alert("signup successfull")
     })

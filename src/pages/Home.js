@@ -18,7 +18,7 @@ function Home() {
   
   useEffect(()=>{
 
-    axios.get("http://127.0.0.1:8000/food/")
+    axios.get("https://legacy-wogu.onrender.com/food/")
     .then((res) =>setFoods(res.data))
     .catch((err) =>console.log(err))
 

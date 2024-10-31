@@ -13,7 +13,7 @@ function Login() {
     e.preventDefault()
     let data = new FormData(e.currentTarget)
 
-    axios.post("http://127.0.0.1:8000/login/", data)
+    axios.post("https://legacy-wogu.onrender.com/login/", data)
     .then((res) => {
       localStorage.setItem("token",res.data.access);
       alert("login successful")

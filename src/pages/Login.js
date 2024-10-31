@@ -47,9 +47,9 @@ function Login() {
           <button type='btn' className='btn position-absolute top-50 end-0'>&#x1f441;</button>
         </div>
         <div className='btn'>
-          <button className='btn btn-outline-primary' type='submit'>Login</button> <br />
+          <button className='btn btn-outline-dark' type='submit'>Login</button> <br />
 
-          <Link to="/signup" className='btn btn-primary align-item-center mt-3'>SignUp</Link>
+          <Link to="/signup" className='btn btn-dark align-item-center mt-3'>SignUp</Link>
         <p style={{textAlign: "center"}}>click to create an account</p><br />
         </div>
       </form>

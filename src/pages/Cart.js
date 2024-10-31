@@ -111,8 +111,8 @@ function Cart() {
       <h5>Total Prices:  #{totalprice}</h5>
 
       <div className='d-flex gap-2 mt-3 mb-5'>
-            <Link to="/" className='btn btn-primary'>continue shopping</Link>
-            <button onClick={Payment} className='btn btn-outline-primary'>proceed payment</button>
+            <Link to="/" className='btn btn-dark'>continue shopping</Link>
+            <button onClick={Payment} className='btn btn-outline-dark'>proceed payment</button>
       </div>
 
     </div>

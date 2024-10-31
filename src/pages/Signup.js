@@ -62,8 +62,8 @@ function Signup() {
                 </div>
 
                 <div className='btn'>
-                <button className='btn btn-outline-primary' type='Submit'>Submit</button>
-                <p className='text-primary'>already have an account</p>
+                <button className='btn btn-outline-dark' type='Submit'>Submit</button>
+                <p className='text-dark text-bold'>already have an account</p>
             </div>
             </form>
            

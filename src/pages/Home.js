@@ -50,7 +50,7 @@ function Home() {
             <img src={row?.image} alt="" className='card-img-top' />
             <p className='card-b0dy'>{row?.title}</p>
             <h6>{row?.price}</h6>
-            <button onClick={() => dispatch(addtocart(row))} className="btn btn-primary m-3">add to cart</button>
+            <button onClick={() => dispatch(addtocart(row))} className="btn btn-dark m-3">add to cart</button>
 
           </div>
             ))

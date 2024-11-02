@@ -63,7 +63,7 @@ function Signup() {
 
                 <div className='btn'>
                 <button className='btn btn-outline-dark' type='Submit'>Submit</button><br />
-               <a className='text-dark' href="#">Already have an account? Login</a>
+               <a className='text-dark' href="#">Already have an account? Login</a><br />
                
             </div>
             </form>

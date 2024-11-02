@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className='bg-primary'>
+    <footer className='bg-secondary'>
         <section className='cotainer'>
             <div className='row'>
                 <div className='col-md-3'>
@@ -44,9 +44,9 @@ function Footer() {
         <section className='d-flex justify-content-around align-items-center'>
                 <p>&copy; copyright - {new Date().getFullYear()}</p>
                 <div>
-                <FaFacebook size={30} color='red'/>
-                <FaInstagram size={30} color='red' />
-                <FaTwitter size={30} color='red'/>
+                <FaFacebook size={30} color='blue'/>
+                <FaInstagram size={30} color='blue' />
+                <FaTwitter size={30} color='blue'/>
 
                 </div>
         </section>

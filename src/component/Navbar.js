@@ -34,7 +34,7 @@ function Navbar() {
   const total = useSelector((state) => state.totalItem)
   
   return (
-   <nav className="navbar navbar-expand-sm navbar-light bg-success position-">
+   <nav className="navbar navbar-expand-sm navbar-light position-">
   <div className="container">
     <a className="navbar-brand" href="./">Home</a>
     <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
